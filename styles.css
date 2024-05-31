@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #87ceeb; /* Cor de fundo única para todo o site */
+}
+
+header {
+    background-color: #ff7f50; /* Cor única para o cabeçalho */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    font-family: 'Krona One', sans-serif;
+}
+
+h2 {
+    color: black;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+
+.texto {
+    margin: 2%;
+    display: flex;
+    align-items: center;
+
+}
+
+section {
+   
+    max-width: 700px;
+    padding: 20px;
+    background-color: #87ceeb; /* Cor azul para as seções */
+}
+
+.menu {
+    display: flex; /* Adiciona um flex container */
+    justify-content: space-between; /* Distribui as imagens igualmente ao longo do contêiner */
+    
+}
+
+.menu img {
+    width: 58%; /* Tamanho das imagens */
+}
+
+.cta {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-decoration: none;
+    background-color: green; /* Cor preta para o botão */
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+footer {
+    background-color: #ff7f50;
+    padding: 20px;
+    text-align: left; /* Alinhamento à esquerda para o texto do rodapé */
+}
+
+.info p {
+    color: black;
+    margin: 5px 0;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width: 768px){
+    .section, menu {
+        width: 100%;
+        flex-direction: column;
+    }
+}
